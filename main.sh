@@ -17,8 +17,8 @@ MANAGER_EXPECTED_SIZE="0x29c"
 MANAGER_EXPECTED_HASH="bfddf83a559355b053187177775c39c639d2d2695163baa77253746dbf18098d"
 
 # Anykernel3
-ANYKERNEL3_GIT="https://github.com/silvzr/AnyKernel3.git"
-ANYKERNEL3_BRANCH="master"
+ANYKERNEL3_GIT="https://github.com/sidex15/n3x7g3n_anykernel3.git"
+ANYKERNEL3_BRANCH="main"
 
 # Build
 DEVICE_CODE="flashlmdd"
@@ -98,7 +98,7 @@ if [[ ! -z "$COMMON_DEFCONFIG" ]]; then
 fi
 
 DEVICE_DEFCONFIG_FILE="$KERNEL_DIR/$DEVICE_ARCH/configs/$DEVICE_DEFCONFIG"
-IMAGE="$KERNEL_DIR/out/$DEVICE_ARCH/boot/Image.gz"
+IMAGE="$KERNEL_DIR/out/$DEVICE_ARCH/boot/Image.gz-dtb"
 DTB="$KERNEL_DIR/out/$DEVICE_ARCH/boot/dtb.img"
 DTBO="$KERNEL_DIR/out/$DEVICE_ARCH/boot/dtbo.img"
 
