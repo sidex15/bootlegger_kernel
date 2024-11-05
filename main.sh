@@ -27,7 +27,7 @@ COMMON_DEFCONFIG=""
 DEVICE_ARCH="arch/arm64"
 
 # Clang
-CLANG_REPO="https://gitlab.com/XSans0/weebx-clang.git"
+CLANG_REPO="XSans0/weebx-clang.git"
 CLANG_BRANCH="release/15-gr"
 
 # ------------------------------------------------------------
