@@ -4,31 +4,31 @@
 # ------------------------------------------------------------
 
 # Kernel
-KERNEL_NAME="Bootlegger"
-KERNEL_GIT="https://github.com/silvzr/bootlegger_kernel_archive.git"
-KERNEL_BRANCH=""
+KERNEL_NAME="n3x7g3n"
+KERNEL_GIT="https://github.com/sidex15/android_kernel_lge_sm8150.git"
+KERNEL_BRANCH="OpenELA-4.14.y-Stock"
 
 # KernelSU
-KERNELSU_REPO="tiann/KernelSU"
+KERNELSU_REPO="sidex15/KernelSU"
 KSU_ENABLED="false"
 
 # KernelSU Custom Manager
-MANAGER_EXPECTED_SIZE="0x354"
-MANAGER_EXPECTED_HASH="55a3dc257ef27810af6eb6e5d0b0f2ee1af1c57626dc67260abffb281db37836"
+MANAGER_EXPECTED_SIZE="0x29c"
+MANAGER_EXPECTED_HASH="bfddf83a559355b053187177775c39c639d2d2695163baa77253746dbf18098d"
 
 # Anykernel3
 ANYKERNEL3_GIT="https://github.com/silvzr/AnyKernel3.git"
 ANYKERNEL3_BRANCH="master"
 
 # Build
-DEVICE_CODE="davinci"
-DEVICE_DEFCONFIG="davinci_defconfig"
+DEVICE_CODE="flashlmdd"
+DEVICE_DEFCONFIG="vendor/dragon_ksu_flash_defconfig"
 COMMON_DEFCONFIG=""
 DEVICE_ARCH="arch/arm64"
 
 # Clang
-CLANG_REPO="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r536225"
-CLANG_BRANCH="14.0"
+CLANG_REPO="https://gitlab.com/XSans0/weebx-clang.git"
+CLANG_BRANCH="release/15-gr"
 
 # ------------------------------------------------------------
 
